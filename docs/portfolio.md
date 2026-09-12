@@ -1,140 +1,60 @@
 ---
-title: Selected Portfolio
+title: Flagship Projects
 sidebar_position: 2
 ---
 
-# Selected Portfolio
+# Flagship Projects
 
-This portfolio combines career work from the updated CV with selected current documentation-engineering projects. Employer work is summarized at a case-study level; proprietary source content is not reproduced.
+This portfolio emphasizes six projects that best demonstrate the breadth of my work: enterprise technical writing, documentation governance, knowledge-base ownership, release documentation, eLearning, Docs-as-Code, and AI-ready documentation.
 
-## Scriptorium Lab Services — AI-Augmented Documentation Products
+## 1. AI-Augmented Documentation Product Suite
 
-**Context**  
-Founded an AI-augmented content-development company focused on technical documentation, documentation quality, content transformation, and AI-ready knowledge assets.
+**Scriptorium Lab Services FZCO · Founder / Documentation Product Lead**
 
-**Work**
+Eight browser-based applications spanning structured document generation, multi-model review, legacy-content migration, XML validation, FAQ generation, deterministic prompt compilation, and RAG-readiness auditing.
 
-- Designed and released **eight browser-based applications** covering structured document generation, multi-model review, legacy-content migration, XML validation, FAQ generation, deterministic prompt compilation, and RAG-readiness auditing.
-- Built versioned **Docs-as-Code** workflows using GitHub, Markdown, MkDocs, GitHub Pages, YAML, and CI/CD automation.
-- Designed human-in-the-loop checkpoints for evidence traceability, document validation, privacy checks, structured exports, and approval before publication or RAG ingestion.
-- Applied generative AI to drafting and review while retaining explicit human editorial oversight.
+[Open case study](./projects/scriptorium-ai-suite)
 
-**Portfolio themes:** AI documentation · Documentation engineering · Docs-as-Code · RAG readiness · Structured content · Human governance
+## 2. AI Docs-as-Code Workflow
 
----
+**Public GitHub implementation · Documentation engineering**
 
-## Recovery Centers of America — Documentation Governance
+A governed documentation workflow using Markdown, GitHub, MkDocs Material, GitHub Actions, Vale, AI-assisted review, human approval, and HTML/PDF/DOCX outputs.
 
-**Context**  
-Healthcare IT documentation supporting US East Coast teams across multiple operational and technology functions.
+[Open case study](./projects/docs-as-code)
 
-**Work**
+## 3. RCA Documentation Governance
 
-- Produced policies, procedures, runbooks, FAQs, workflow diagrams, user guides, and training materials with IT Operations, Mission Center, Business Intelligence, Enterprise Applications, Telephony, and PMO teams.
-- Established centralized governance for document ownership, naming and numbering conventions, version control, approval workflows, and recurring review schedules.
-- Created a **Smartsheet documentation dashboard** to expose document status, ownership, review cycles, and delivery metrics to PMO stakeholders.
-- Authored operational documentation for identity and access management, endpoint deployment and patching, email security, VPN, telephony, backup, virtualization, and SSL certificate reviews.
-- Performed documentation audits and maintained HIPAA-aligned content controls.
+**Recovery Centers of America · Healthcare IT**
 
-**Portfolio themes:** Healthcare IT · Governance · SOPs · Runbooks · Infrastructure documentation · Audit readiness
+Centralized documentation ownership, naming and numbering, version control, approvals, recurring review schedules, dashboard reporting, and HIPAA-aligned documentation controls.
 
----
+[Open case study](./projects/rca-governance)
 
-## Comm100 — SaaS Knowledge Base and Amy Chatbot Help
+## 4. Comm100 Four-Platform SaaS Knowledge Base
 
-**Context**  
-Customer-facing documentation for a multi-product SaaS portfolio serving distributed teams in India, Canada, and China.
+**Comm100 · SaaS knowledge management**
 
-**Work**
+End-to-end ownership of customer documentation across Live Chat, Chatbot, Ticketing & Messaging, and Knowledge Base, including the complete Amy Chatbot online-help system.
 
-- Owned the end-to-end knowledge base for **four SaaS platforms**: Live Chat, Chatbot, Ticketing & Messaging, and Knowledge Base.
-- Developed the **complete online help system for the Amy Chatbot**.
-- Improved onboarding structure and findability.
-- Produced getting-started guides, best-practice guides, glossaries, troubleshooting content, security documentation, release notes, upgrade checklists, and how-to articles across 3+ product lines.
-- Integrated documentation planning into Agile release workflows.
-- Worked across Product Management, Engineering, QA, Customer Success, Product Marketing, and Technical Support.
+[Open case study](./projects/comm100-knowledge-base)
 
-**Portfolio themes:** Knowledge management · SaaS documentation · Online help · Product adoption · Troubleshooting · Release documentation
+## 5. Oracle Drug Safety Documentation Modernization
 
----
+**Oracle · Life sciences / regulated software**
 
-## Keysight Technologies — PathWave Foundation 2020 Online Help
+Legacy documentation modernization, online-help restructuring, major/minor release support, 12+ patch releases, and time-sensitive data-release instructions with zero missed deadlines.
 
-**Context**  
-Technical product documentation for the PathWave Foundation 2020 release.
+[Open case study](./projects/oracle-drug-safety)
 
-**Work**
+## 6. Oracle eLearning & Localization Program
 
-- Developed and validated online-help content.
-- Worked directly with subject-matter experts using Confluence and Slack.
-- Focused on technically accurate release-aligned product guidance.
+**Oracle · Healthcare, clinical, and drug-safety portfolios**
 
-**Portfolio themes:** Engineering software · Online help · SME collaboration · Release-aligned documentation
+40+ eLearning courses and short videos across 9 English and 7 Japanese titles, with translation/localization coordination across the United Kingdom, India, and Romania.
+
+[Open case study](./projects/oracle-elearning)
 
 ---
 
-## BirdEye — Webinar-to-Microlearning Transformation
-
-**Context**  
-Converted long-form legacy training assets into a more reusable learning format for a SaaS platform.
-
-**Work**
-
-- Transformed a legacy webinar library into a **microlearning video series**.
-- Managed storyboarding, instructional design, production, voice-over, and LMS publishing.
-- Established the organization's **Adobe Captivate production capability**.
-- Created customer-facing knowledge-base articles for the BirdEye SaaS platform.
-
-**Portfolio themes:** eLearning · Instructional design · Microlearning · Knowledge base · SaaS
-
----
-
-## Oracle — Drug Safety Documentation Modernization
-
-**Context**  
-Product documentation for Oracle's Drug Safety portfolio across distributed US, Romania, and India teams.
-
-**Work**
-
-- Modernized a legacy documentation suite to Oracle writing and publishing standards.
-- Restructured the online-help system for improved navigation.
-- Delivered documentation for **one major and three minor releases**.
-- Authored **release notes and known issues for 12+ patch releases** on My Oracle Support.
-- Maintained time-sensitive data-release and installation instructions for AERS, VAERS, VigiBase, and MedDRA on monthly, quarterly, and annual schedules with **zero missed deadlines**.
-- Adapted Agile practices for documentation planning and responsiveness to engineering changes.
-
-**Portfolio themes:** Life sciences · Release documentation · Online help · Documentation modernization · Agile documentation
-
----
-
-## Oracle — Healthcare, Clinical, and Drug Safety Learning Content
-
-**Context**  
-Information development operations covering customer learning, localization, and delivery.
-
-**Work**
-
-- Delivered **40+ eLearning courses and short videos** across **9 English titles and 7 Japanese titles**.
-- Coordinated translation and localization vendors across the United Kingdom, India, and Romania.
-- Managed technical and linguistic review cycles.
-- Administered LMS assignments and instructor-led training events.
-- Captured recurring production issues in a shared knowledge repository.
-
-**Portfolio themes:** eLearning · Localization · Healthcare · Clinical software · Knowledge operations
-
----
-
-## GlobalLogic / Mantas / Oracle Financial Services — Enterprise Release Documentation
-
-**Context**  
-Long-running financial-services software documentation program across India and United States teams.
-
-**Work**
-
-- Delivered enterprise product documentation across **10+ major release cycles**.
-- Managed a small writing team.
-- Coordinated client and internal stakeholders across geographies.
-- Led knowledge-transfer sessions on documentation processes and authoring tools.
-- Represented the documentation team in client project reviews and maintained consolidated weekly reporting.
-
-**Portfolio themes:** Financial services · Enterprise software · Documentation leadership · Major releases · Distributed teams
+For the complete chronology, see [Professional Experience](./experience). For inspectable source-controlled implementations, see [Public GitHub Projects](./github-projects).
