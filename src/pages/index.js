@@ -3,8 +3,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-const CV_URL = 'https://harjotdhodi-gif.github.io/files/Harjot-Singh-Dhodi-CV.pdf';
-
 const metrics = [
   ['20+', 'years in technical communication'],
   ['10+', 'major release cycles'],
@@ -36,19 +34,18 @@ export default function Home() {
       <header className={styles.hero}>
         <div className={`container ${styles.heroGrid}`}>
           <div className={styles.heroCopy}>
-            <img className={styles.brand} src="/img/portfolio/brand-wordmark.svg" alt="Scriptorium Lab Services FZCO" />
+            <img className={styles.brand} src="/img/portfolio/scriptorium-logo.webp" alt="Scriptorium Lab Services" />
             <div className={styles.eyebrow}>Principal Technical Writer · Documentation Manager · Documentation Engineer</div>
             <h1>Harjot Singh Dhodi</h1>
             <p className={styles.lead}>I turn complex product and operational knowledge into clear, governed, reusable documentation for people and AI systems.</p>
             <p className={styles.summary}>20+ years across enterprise software, SaaS, healthcare, life sciences, financial services, online help, knowledge bases, release documentation, eLearning, and documentation operations — now extended through Docs-as-Code and AI-assisted documentation workflows.</p>
             <div className={styles.actions}>
               <Link className="button button--primary button--lg" to="/work/portfolio">View flagship projects</Link>
-              <a className="button button--secondary button--lg" href={CV_URL} download>Download CV</a>
+              <a className="button button--secondary button--lg" href="https://harjotdhodi-gif.github.io/files/Harjot-Singh-Dhodi-CV.pdf" download>Download CV</a>
             </div>
           </div>
-          <aside className={styles.portraitCard}>
-            <img src="/img/portfolio/portrait-monogram.svg" alt="Harjot Singh Dhodi professional portfolio portrait panel" />
-            <div className={styles.portraitNote}>Professional headshot slot prepared for your exact photo.</div>
+          <aside className={styles.portraitCard} aria-label="Professional headshot of Harjot Singh Dhodi">
+            <img className={styles.headshot} src="/img/portfolio/harjot-headshot.webp" alt="Harjot Singh Dhodi professional headshot" fetchPriority="high" />
           </aside>
         </div>
       </header>
@@ -74,7 +71,7 @@ export default function Home() {
 
         <section className={styles.timelineSection}><div className="container"><div className={styles.sectionHead}><div className={styles.eyebrow}>Career depth</div><h2>From enterprise release documentation to AI-ready knowledge systems</h2></div><div className={styles.timeline}><span>GlobalLogic / Mantas</span><span>Oracle</span><span>BirdEye</span><span>Keysight</span><span>Comm100</span><span>Recovery Centers of America</span><span>Scriptorium Lab Services</span></div><div className={styles.centerAction}><Link className="button button--secondary" to="/work/experience">View complete experience</Link></div></div></section>
 
-        <section className={styles.ctaSection}><div className="container"><div className={styles.cta}><div><div className={styles.eyebrow}>Connect</div><h2>Enterprise documentation depth. Modern documentation engineering.</h2><p>Explore the public GitHub work, download the current CV, or connect through LinkedIn and Scriptorium Lab Services.</p></div><div className={styles.actions}><a className="button button--primary button--lg" href={CV_URL} download>Download CV</a><a className="button button--secondary button--lg" href="https://www.linkedin.com/in/harjotdhodi">LinkedIn</a><a className="button button--secondary button--lg" href="https://github.com/harjotdhodi-gif">GitHub</a></div></div></div></section>
+        <section className={styles.ctaSection}><div className="container"><div className={styles.cta}><div><div className={styles.eyebrow}>Connect</div><h2>Enterprise documentation depth. Modern documentation engineering.</h2><p>Explore the public GitHub work, download the current CV, or connect through LinkedIn and Scriptorium Lab Services.</p></div><div className={styles.actions}><a className="button button--primary button--lg" href="https://harjotdhodi-gif.github.io/files/Harjot-Singh-Dhodi-CV.pdf" download>Download CV</a><a className="button button--secondary button--lg" href="https://www.linkedin.com/in/harjotdhodi">LinkedIn</a><a className="button button--secondary button--lg" href="https://github.com/harjotdhodi-gif">GitHub</a></div></div></div></section>
       </main>
     </Layout>
   );
