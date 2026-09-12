@@ -19,6 +19,7 @@ const projects = [
   {tag:'SaaS · Knowledge Management', title:'Comm100 Four-Platform Knowledge Base', text:'End-to-end knowledge-base ownership across Live Chat, Chatbot, Ticketing & Messaging, and Knowledge Base, including Amy Chatbot online help.', image:'/img/portfolio/knowledge-base-map.svg', href:'/work/projects/comm100-knowledge-base'},
   {tag:'Life Sciences · Enterprise Software', title:'Oracle Drug Safety Documentation Modernization', text:'Modernized a legacy suite, restructured online help, supported major/minor releases, and authored release notes and known issues for 12+ patches.', image:'/img/portfolio/oracle-release.svg', href:'/work/projects/oracle-drug-safety'},
   {tag:'Learning · Localization', title:'Oracle eLearning & Localization Program', text:'Delivered 40+ learning assets across English and Japanese titles and coordinated technical and linguistic review across international vendors.', image:'/img/portfolio/oracle-elearning.svg', href:'/work/projects/oracle-elearning'},
+  {tag:'Financial Services · Enterprise Releases', title:'GlobalLogic / Mantas Financial Crime Documentation', text:'Enterprise documentation across 10+ major release cycles for the Mantas Behavior Detection Platform, Fraud Detection, and Oracle FCCM solutions, with writing-team leadership and US–India coordination.', image:'/img/portfolio/globallogic-fccm.svg', href:'/work/projects/globallogic-mantas-fccm'},
 ];
 
 const capabilities = [
@@ -55,8 +56,8 @@ export default function Home() {
 
         <section className={styles.section}>
           <div className="container">
-            <div className={styles.sectionHead}><div className={styles.eyebrow}>Flagship portfolio</div><h2>Six projects that best show the range and depth of my work</h2><p>Each case study focuses on the problem, my ownership, the documentation system or deliverables, and the value created.</p></div>
-            <div className={styles.projectGrid}>{projects.map((p,i)=><article className={styles.projectCard} key={p.title}><div className={styles.projectVisual}><img src={p.image} alt="" /></div><div className={styles.projectBody}><div className={styles.projectNumber}>0{i+1}</div><div className={styles.projectTag}>{p.tag}</div><h3>{p.title}</h3><p>{p.text}</p><Link to={p.href}>Open case study →</Link></div></article>)}</div>
+            <div className={styles.sectionHead}><div className={styles.eyebrow}>Flagship portfolio</div><h2>Seven projects that best show the range and depth of my work</h2><p>Each case study focuses on the problem, my ownership, the documentation system or deliverables, and the value created.</p></div>
+            <div className={styles.projectGrid}>{projects.map((p,i)=><article className={styles.projectCard} key={p.title}><div className={styles.projectVisual}><img src={p.image} alt={`${p.title} visual summary`} /></div><div className={styles.projectBody}><div className={styles.projectNumber}>0{i+1}</div><div className={styles.projectTag}>{p.tag}</div><h3>{p.title}</h3><p>{p.text}</p><Link to={p.href}>Open case study →</Link></div></article>)}</div>
           </div>
         </section>
 

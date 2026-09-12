@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Flagship Projects
 
-This portfolio emphasizes six projects that best demonstrate the breadth of my work: enterprise technical writing, documentation governance, knowledge-base ownership, release documentation, eLearning, Docs-as-Code, and AI-ready documentation.
+This portfolio emphasizes seven projects that best demonstrate the breadth of my work: enterprise technical writing, documentation governance, knowledge-base ownership, release documentation, eLearning, financial-services documentation, Docs-as-Code, and AI-ready documentation.
 
 ## 1. AI-Augmented Documentation Product Suite
 
@@ -54,6 +54,14 @@ Legacy documentation modernization, online-help restructuring, major/minor relea
 40+ eLearning courses and short videos across 9 English and 7 Japanese titles, with translation/localization coordination across the United Kingdom, India, and Romania.
 
 [Open case study](./projects/oracle-elearning)
+
+## 7. GlobalLogic / Mantas Financial Crime Documentation
+
+**GlobalLogic · Consultant — Technical Writing Group · Dec 2005 – May 2012**
+
+Enterprise product documentation across **10+ major release cycles** for the **Mantas Behavior Detection Platform**, **Fraud Detection**, and **Oracle Financial Crime and Compliance Management (FCCM) Solutions**, with small-team leadership and coordination across India and United States teams.
+
+[Open case study](./projects/globallogic-mantas-fccm)
 
 ---
 
