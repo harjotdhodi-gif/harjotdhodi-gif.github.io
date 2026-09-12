@@ -19,11 +19,11 @@ const config = {
       {to:'/work/experience',label:'Experience',position:'left'},
       {to:'/work/capabilities',label:'Capabilities',position:'left'},
       {to:'/work/github-projects',label:'GitHub Projects',position:'left'},
-      {href:'/files/Harjot-Singh-Dhodi-CV.pdf',label:'Download CV',position:'right'},
+      {href:'https://harjotdhodi-gif.github.io/files/Harjot-Singh-Dhodi-CV.pdf',label:'Download CV',position:'right'},
       {href:'https://www.linkedin.com/in/harjotdhodi',label:'LinkedIn',position:'right'},
       {href:'https://github.com/harjotdhodi-gif',label:'GitHub',position:'right'}
     ]},
-    footer:{style:'dark',links:[{title:'Portfolio',items:[{label:'Flagship Projects',to:'/work/portfolio'},{label:'Experience',to:'/work/experience'},{label:'Capabilities',to:'/work/capabilities'},{label:'GitHub Projects',to:'/work/github-projects'}]},{title:'Connect',items:[{label:'Download CV',href:'/files/Harjot-Singh-Dhodi-CV.pdf'},{label:'LinkedIn',href:'https://www.linkedin.com/in/harjotdhodi'},{label:'GitHub',href:'https://github.com/harjotdhodi-gif'},{label:'Scriptorium Lab Services',href:'https://scriptoriumlab.com/'}]}],copyright:`Copyright © ${new Date().getFullYear()} Harjot Singh Dhodi. Built with Docusaurus and GitHub Pages.`}
+    footer:{style:'dark',links:[{title:'Portfolio',items:[{label:'Flagship Projects',to:'/work/portfolio'},{label:'Experience',to:'/work/experience'},{label:'Capabilities',to:'/work/capabilities'},{label:'GitHub Projects',to:'/work/github-projects'}]},{title:'Connect',items:[{label:'Download CV',href:'https://harjotdhodi-gif.github.io/files/Harjot-Singh-Dhodi-CV.pdf'},{label:'LinkedIn',href:'https://www.linkedin.com/in/harjotdhodi'},{label:'GitHub',href:'https://github.com/harjotdhodi-gif'},{label:'Scriptorium Lab Services',href:'https://scriptoriumlab.com/'}]}],copyright:`Copyright © ${new Date().getFullYear()} Harjot Singh Dhodi. Built with Docusaurus and GitHub Pages.`}
   }
 };
 module.exports = config;
