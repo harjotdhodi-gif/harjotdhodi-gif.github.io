@@ -13,7 +13,7 @@ const config = {
   presets: [['classic',{docs:{sidebarPath:require.resolve('./sidebars.js'),routeBasePath:'work'},blog:false,theme:{customCss:require.resolve('./src/css/custom.css')}}]],
   themeConfig: {
     metadata:[{name:'description',content:'Portfolio of Harjot Singh Dhodi: principal technical writer, documentation manager, documentation engineer, Docs-as-Code practitioner, and AI-ready documentation specialist.'}],
-    navbar:{title:'Harjot Singh Dhodi',logo:{alt:'Scriptorium Lab Services',src:'img/portfolio/scriptorium-logo.webp',href:'/'},hideOnScroll:false,items:[
+    navbar:{title:'Harjot Singh Dhodi',logo:{alt:'Scriptorium Lab Services',src:'img/portfolio/scriptorium-logo-full.svg',href:'/'},hideOnScroll:false,items:[
       {to:'/',label:'Home',position:'left'},
       {to:'/work/portfolio',label:'Flagship Projects',position:'left'},
       {to:'/work/experience',label:'Experience',position:'left'},
