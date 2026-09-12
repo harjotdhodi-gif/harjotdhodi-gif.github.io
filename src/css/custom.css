@@ -9,7 +9,7 @@
   --ifm-background-color: #ffffff;
   --ifm-font-color-base: #233d47;
   --ifm-heading-color: #082736;
-  --ifm-navbar-height: 4.25rem;
+  --ifm-navbar-height: 5rem;
   --ifm-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --ifm-heading-font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -17,8 +17,27 @@
 html { scroll-behavior: smooth; }
 body { background: #fff; }
 .navbar { box-shadow: 0 1px 0 rgba(8,39,54,0.1); }
-.navbar__logo { width: 3.2rem; height: 2.55rem; margin-right: 0.65rem; padding: 0.15rem 0.25rem; background: #fff; border: 1px solid #e4eceb; border-radius: 0.65rem; }
-.navbar__logo img { width: 100%; height: 100%; object-fit: contain; }
+.navbar__brand { min-width: 0; overflow: visible; }
+.navbar__logo {
+  width: 5.2rem;
+  height: 3.65rem;
+  flex: 0 0 auto;
+  margin-right: 0.75rem;
+  padding: 0.18rem 0.28rem;
+  background: #fff;
+  border: 1px solid #e4eceb;
+  border-radius: 0.75rem;
+  overflow: visible;
+}
+.navbar__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: center center;
+}
 .navbar__title { color: #082736; font-weight: 850; letter-spacing: -0.02em; }
 .navbar__link { font-weight: 700; }
 .button { border-radius: 999px; font-weight: 800; }
@@ -33,6 +52,11 @@ body { background: #fff; }
 .markdown h3 { color: #0f6e6e; }
 .markdown table { display: table; width: 100%; }
 .markdown blockquote { border-left-color: #35b7b1; background: #f5faf9; padding: 1rem 1.25rem; }
+
+@media (max-width: 996px) {
+  :root { --ifm-navbar-height: 4.6rem; }
+  .navbar__logo { width: 4.6rem; height: 3.25rem; }
+}
 
 [data-theme='dark'] {
   --ifm-background-color: #061f2b;
