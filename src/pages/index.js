@@ -34,7 +34,7 @@ export default function Home() {
       <header className={styles.hero}>
         <div className={`container ${styles.heroGrid}`}>
           <div className={styles.heroCopy}>
-            <img className={styles.brand} src="/img/portfolio/scriptorium-logo.webp" alt="Scriptorium Lab Services" />
+            <img className={styles.brand} src="/img/portfolio/scriptorium-logo-full.svg" alt="Scriptorium Lab Services" />
             <div className={styles.eyebrow}>Principal Technical Writer · Documentation Manager · Documentation Engineer</div>
             <h1>Harjot Singh Dhodi</h1>
             <p className={styles.lead}>I turn complex product and operational knowledge into clear, governed, reusable documentation for people and AI systems.</p>
