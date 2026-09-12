@@ -3,9 +3,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Harjot Singh Dhodi',
-  tagline: 'Technical Documentation · AI Documentation · Docs-as-Code',
-  favicon: 'img/favicon.svg',
-
+  tagline: 'Principal Technical Writer · Documentation Leader · Documentation Engineer',
   url: 'https://harjotdhodi-gif.github.io',
   baseUrl: '/',
   organizationName: 'harjotdhodi-gif',
@@ -36,7 +34,7 @@ const config = {
       {
         name: 'description',
         content:
-          'Portfolio of Harjot Singh Dhodi: technical writing, AI documentation, Docs-as-Code, knowledge bases, content governance, RAG readiness, and documentation engineering.',
+          'Portfolio of Harjot Singh Dhodi: principal technical writer, documentation leader, documentation engineer, Docs-as-Code practitioner, and AI-ready documentation specialist.',
       },
     ],
     navbar: {
@@ -74,6 +72,7 @@ const config = {
             {label: 'Experience', to: '/work/experience'},
             {label: 'Selected Work', to: '/work/portfolio'},
             {label: 'GitHub Projects', to: '/work/github-projects'},
+            {label: 'Capabilities', to: '/work/capabilities'},
           ],
         },
         {
